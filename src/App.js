@@ -6,7 +6,9 @@ import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
 import Messege from './Components/Messege';
 import Counter from './Components/Counter';
-
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   return (
@@ -30,12 +32,16 @@ function App() {
 
      <Messege/>
 
-     <Counter/> */}
+     <Counter/> 
 
      <Hello name="venkat" age="20" city="guntur">
        <p>This is children props</p>
        </Hello>
-       <Welcome name="Randy" nation='american'/>
+       <Welcome name="Randy" nation='american'/> these are destructuring concepts
+
+       <FunctionClick />
+       <ClassClick /> */}
+       <EventBind/>
     </div>
   );
 }
