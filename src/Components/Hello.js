@@ -1,7 +1,7 @@
 import React from 'react';
 
 let Hello = ({name,age,city,children}) => {  // we have declare props property initially here ,,, destrcturing in perameter
-   // const {name,age,city,children} = props; this is called destrcting in body
+   // const {name,age,city,children} = props; this is called destructing in body
     return (
         <div  id="hello" className='dummyClass'>
             <h1>
