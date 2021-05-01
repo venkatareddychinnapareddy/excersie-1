@@ -9,18 +9,21 @@ import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
+import UserGreeting from './Components/UserGreeting';
+import NameList from './Components/NameList';
 
 function App() {
   return (
     <div className="App">
 
-     { /*<Greet/> 
+     {/* <Greet/> */}
 
-     <Welcome name="Randy" nation='american'/>
+     {/* <Welcome name="Randy" nation='american'/>
      <Welcome name="Kofi" nation='Africa'/>
-     <Welcome name="Cena" nation='Canada'/>
+     <Welcome name="Cena" nation='Canada'/> */}
 
-     <Hello name="venkat" age="20" city="guntur">
+     {/* <Hello name="venkat" age="20" city="guntur">
        <p>This is children props</p>
        </Hello>
      <Hello name="Kiran" age="30" city="Hyderabad">
@@ -28,20 +31,28 @@ function App() {
      </Hello>
      <Hello name="vajiRam" age="40" city="Delhi">
        <i>Hello Me</i>
-     </Hello>  
+     </Hello>   */}
 
-     <Messege/>
+     {/* <Messege/> */}
 
-     <Counter/> 
+     {/* <Counter/>  */}
 
-     <Hello name="venkat" age="20" city="guntur">
+     {/* <Hello name="venkat" age="20" city="guntur">
        <p>This is children props</p>
        </Hello>
-       <Welcome name="Randy" nation='american'/> these are destructuring concepts
+       <Welcome name="Randy" nation='american'/> these are destructuring concepts */}
 
-       <FunctionClick />
-       <ClassClick /> */}
-       <EventBind/>
+       {/* <FunctionClick /> */}
+
+       {/* <ClassClick />  */}
+
+       {/* <EventBind/>  */}
+
+       {/* <ParentComponent/> */}
+
+       {/* <UserGreeting/> */}
+
+       <NameList/>
     </div>
   );
 }
