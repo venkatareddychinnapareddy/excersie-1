@@ -13,10 +13,17 @@ import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import IndexList from './Components/IndexList';
+import Stylesheet from './Components/Stylesheet';
+import InLine from './Components/InLine';
+import './appStyles.css';
+import styles from './appStyles.module.css';
 
 function App() {
   return (
     <div className="App">
+
+      <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1>
 
      {/* <Greet/> */}
 
@@ -55,8 +62,11 @@ function App() {
 
        {/* <NameList/> */}
 
-       <IndexList/>
+       {/* <IndexList/> */}
        
+       {/* <Stylesheet primary={true}/> */}
+
+       <InLine/>
        
     </div>
   );
