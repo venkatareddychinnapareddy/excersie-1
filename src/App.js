@@ -12,6 +12,7 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
+import IndexList from './Components/IndexList';
 
 function App() {
   return (
@@ -52,7 +53,11 @@ function App() {
 
        {/* <UserGreeting/> */}
 
-       <NameList/>
+       {/* <NameList/> */}
+
+       <IndexList/>
+       
+       
     </div>
   );
 }

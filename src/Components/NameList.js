@@ -1,4 +1,5 @@
 import React from 'react';
+import Person from './Person';
 
 function NameList() {
     // const names = ['Venkata','Kishore','Nagarjuna']
@@ -6,7 +7,7 @@ function NameList() {
         {
             id : 1,
             name : 'Venkata reddy',
-            age : 22 ,
+            age : 20 ,
             skill : 'Web Development'
         },
         {
@@ -22,12 +23,8 @@ function NameList() {
             skill : 'Routing'
         }
     ]
-    
-     const personList =  persons.map(person => (
-     <h2>
-         Hello I'm {person.name} and i am {person.age} years old. And i know {person.skill}
-     </h2>
-         ))
+
+     const personList =  persons.map(person => <Person key={person.age} person={person} />)  // Key are unique each list item should have a unique id
 
     return (
         // <div>
