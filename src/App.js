@@ -17,13 +17,20 @@ import Stylesheet from './Components/Stylesheet';
 import InLine from './Components/InLine';
 import './appStyles.css';
 import styles from './appStyles.module.css';
+import Form from './Components/Form';
+import LifeCycleA from './Components/LifeCycleA';
+import FragmentDemo from './Components/FragmentDemo';
+import Table from './Components/Table';
+import PureComp from './Components/PureComp';
+import ParentComp from './Components/ParentComp';
+import RefsDemo from './Components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
 
-      <h1 className="error">Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      {/* <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
 
      {/* <Greet/> */}
 
@@ -66,8 +73,20 @@ function App() {
        
        {/* <Stylesheet primary={true}/> */}
 
-       <InLine/>
-       
+       {/* <InLine/> */}
+
+       {/* <Form /> */}
+
+       {/* <LifeCycleA/> */}
+
+      {/* <FragmentDemo/> */}
+
+      {/* <Table/> */}
+
+      {/* <ParentComp/>  */}
+
+      <RefsDemo/>
+
     </div>
   );
 }
